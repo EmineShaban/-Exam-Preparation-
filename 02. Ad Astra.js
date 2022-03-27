@@ -13,7 +13,7 @@ function solve(arr) {
         provisions.push(`Item: ${itemName}, Best before: ${date}, Nutrition: ${calories}`)
     }
     let days = Math.floor(total / normcalories)
-    console.log(`You have food to last you for: ${days} days!`)
+    console.log(`You have food to last you for: ${days} days! `)
     console.log(provisions.join("\n"))
 }
 solve(['#Bread#19/03/21#1000#|Invalid|03/03.20||Apples|08/10/20|500||Carrots|06/08/20|500||Not right|6.8.20|5|'])
