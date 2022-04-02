@@ -50,8 +50,6 @@ function solve(input) {
         console.log(name)
         console.log(`   HP: ${hero.hp}`)
         console.log(`   MP: ${hero.mp}`)
-
-
     }
 }
 solve(['2',
