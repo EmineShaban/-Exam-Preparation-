@@ -1,0 +1,13 @@
+function solve(arr){
+let sorted = arr.sort()
+
+for(let i = 0; i<= sorted.length -1 ; i++){
+    console.log(`${i + 1}.${sorted[i]}`)
+}
+
+
+
+
+}
+solve(['Potatoes', 'Tomatoes', 'Onions', 'Apples'])
+solve(['Watermelon', 'Banana', 'Apples'])
